@@ -1,12 +1,12 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: nodejs-backend-hpa
+  name: frontend-hpa
 spec:
   maxReplicas: 20
   minReplicas: 1
   scaleTargetRef:
-    apiVersion: extensions/v1beta1
+    apiVersion: extensions/v1
     kind: Deployment
-    name: nodejs-backend
+    name: frontend
   targetCPUUtilizationPercentage: 50

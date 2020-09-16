@@ -44,4 +44,4 @@ spec:
               memory: "1024Mi"
               cpu: "500m"
       nodeSelector:
-        failure-domain.beta.kubernetes.io/zone: us-west-2c
+        failure-domain.beta.kubernetes.io/zone: eu-west-1c

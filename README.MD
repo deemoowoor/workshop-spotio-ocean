@@ -10,7 +10,7 @@ In this workshop we'll:
 
 ## Part 2 - K8s + Ocean
 
-- [Connect our K8s cluster with Spotinst Ocean](./03.connect-k8s-w-ocean.md)
+- [Connect our K8s cluster with Spot.io Ocean](./03.connect-k8s-w-ocean.md)
 - [Serverless containers w/Ocean](./04.scale-w-ocean.md)
 
 ## Part 3 - Advanced

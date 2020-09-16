@@ -24,7 +24,7 @@ allowedTopologies:
   - matchLabelExpressions:
       - key: failure-domain.beta.kubernetes.io/zone
         values:
-          - us-west-2b
+          - eu-west-1b
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
